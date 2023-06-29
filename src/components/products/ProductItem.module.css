@@ -1,0 +1,28 @@
+
+
+.wrapper {
+  background: linear-gradient(90deg, rgba(156,151,242,0.06766456582633051) 16%, rgba(20,216,244,0.7203256302521008) 46%, rgba(26,148,172,0.4682247899159664) 89%);
+  width: 350px;
+  min-height: 400px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 15px;
+}
+
+.thumbnail {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text {
+    text-decoration: none;
+    text-align: center;
+}
+
+
